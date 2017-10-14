@@ -15,11 +15,19 @@ export class BoardComponent implements OnInit {
     this.cardStore = new CardStore();
     const lists: ListSchema[] = [
       {
-        name: 'To Do',
+        name: 'Backlog',
         cards: []
       },
       {
-        name: 'Doing',
+        name: 'Development',
+        cards: []
+      },
+      {
+        name: 'Testing',
+        cards: []
+      },
+      {
+        name: 'Code Review',
         cards: []
       },
       {
