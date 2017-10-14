@@ -1,5 +1,10 @@
+h1 {
+	width: 100%;
+	text-align: center;
+	color: #0c3763;
+}
 div {
-	background: #ffffff;
+	background: #0c3763;
     display: flex;
     padding: 0 5px;
     height: 100vh;
